@@ -7,13 +7,13 @@ Summary(pl.UTF-8):	Biblioteka do tworzenia symbolicznych backtrace'ów
 Name:		libbacktrace
 # "1.0" according to README
 Version:	1.0
-%define	gitref	7ead8c1ea2f4aeafe9c5b9ef8a9461a9ba781aa8
-%define	snap	20240309
+%define	gitref	0b9b49cf4a2c9229fc052d6716e1528b2f23e91a
+%define	snap	20260903
 Release:	0.%{snap}.1
 License:	BSD
 Group:		Libraries
 Source0:	https://github.com/ianlancetaylor/libbacktrace/archive/%{gitref}/%{name}-%{snap}.tar.gz
-# Source0-md5:	8681498a6ba92d12609151e3b5411909
+# Source0-md5:	ff363f6cba2d5bb9a6a261c55e9c3c16
 URL:		https://github.com/ianlancetaylor/libbacktrace
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
